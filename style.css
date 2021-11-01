@@ -1,0 +1,39 @@
+*{
+  font-family: Roboto, sans-serif;
+}
+
+.nav{
+  background-color: rgb(61, 60, 60);
+  padding: 5px 20px;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links{
+  display: flex;
+  list-style-type: none;
+}
+
+a, button{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 25px;
+  
+}
+
+.active{
+  font-weight: bold;
+}
+
+button{
+  background-color: rgb(80, 153, 129);
+  border: none;
+  
+  font-weight: bold;
+  padding: 2px 8px;
+  box-shadow: 3px 3px black;
+}
